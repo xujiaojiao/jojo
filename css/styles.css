@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+h1 {
+    color: rgb(30, 233, 23);
+    font-size: 5rem;
+  }
+  .item {
+    border: 1px solid #aaa;
+    padding: 1rem;
+    
+  }
+  
+  .selected {
+    background-color: rgb(206, 49, 49);
+  }
+  /* .container div:hover{
+      color: rgb(14, 240, 63);
+      cursor: pointer; */
+     
+  }
+.container button:hover{
+     width:1000px;
+     height: 700px;
+     display: flex;/* or inline-flex */
+     flex-direction: row | row-reverse | column | column-reverse;
+     justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+     background-color:green;
+     color: #56560;
+   
+     border-radius: 50px;
+     opacity: 0.7;
+     color: rgb(223, 18, 18);
+     font-size: 40px;
+
+     font-family: 'Roboto', sans-serif;
+     /* background-image: url('/img/维森霍夫建筑.jpg'); */
+     background-size: cover;
+     padding-left: 50px;
+     margin: 100px 100px 10px;
+
+
+ }
